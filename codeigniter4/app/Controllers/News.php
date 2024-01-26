@@ -30,6 +30,8 @@ class News extends BaseController{
             throw new PageNotFoundException("Não encontramos essa notícia: ". $slug);
         }
 
+        $data['title'] = $data['news']['title'];
+        
         return view('templates/header', $data)
                 .view('news/view')
                 .view('templates/footer');
