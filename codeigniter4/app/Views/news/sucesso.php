@@ -1,0 +1,1 @@
+<p> Notícia cadastrada com sucesso. </p>
