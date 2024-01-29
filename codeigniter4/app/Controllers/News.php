@@ -20,6 +20,24 @@ class News extends BaseController{
                 .view('templates/footer');
     }
 
+    public function showById($id){
+
+        $model = model(NewsModel::class);
+
+        $data = [
+            'news' => $model->getById($id),
+            'title' => "Mostrando por id"
+        ];
+
+        if(empty($data['news'])){
+            throw new PageNotFoundException("Não existe a notícia para o ID $id");
+        }
+
+        return view('templates/header', $data)
+                .view('news/view')
+                .view('templates/footer');
+    }
+
     //Método que retona a página individual das notícias
     public function show($slug = null){
 
@@ -74,6 +92,5 @@ class News extends BaseController{
         return view('templates/header', ['title' => 'Salvando os dados'])
                .view('news/sucesso')
                .view('templates/footer');
-
     }
 }

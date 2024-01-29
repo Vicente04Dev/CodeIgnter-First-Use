@@ -16,4 +16,8 @@ class NewsModel extends Model{
 
         return $this->where(['slug' => $slug])->first();
     }
+
+    public function getById($id){
+        return $this->where(['Id' => $id])->first();
+    }
 }
