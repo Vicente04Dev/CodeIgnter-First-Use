@@ -93,4 +93,8 @@ class News extends BaseController{
                .view('news/sucesso')
                .view('templates/footer');
     }
+
+    public function nova(){
+        
+    }
 }

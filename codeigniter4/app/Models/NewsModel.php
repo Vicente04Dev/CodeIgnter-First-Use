@@ -2,6 +2,7 @@
 
 namespace App\Models;
 use CodeIgniter\Model;
+use CodeIgniter\View\Parser;
 
 class NewsModel extends Model{
 
@@ -20,4 +21,5 @@ class NewsModel extends Model{
     public function getById($id){
         return $this->where(['Id' => $id])->first();
     }
+
 }

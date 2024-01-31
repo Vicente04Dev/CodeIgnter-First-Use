@@ -1,0 +1,82 @@
+INFO - 2024-01-31 15:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-31 15:54:21 --> ArgumentCountError: Too few arguments to function App\Cells\AlertMessage::show(), 0 passed in C:\projects\CodeIgnter-First-Use\codeigniter4\system\View\Cell.php on line 231 and exactly 1 expected
+in APPPATH\Cells\AlertMessage.php on line 8.
+ 1 SYSTEMPATH\View\Cell.php(231): App\Cells\AlertMessage->show()
+ 2 SYSTEMPATH\View\Cell.php(102): CodeIgniter\View\Cell->renderCell(Object(App\Cells\AlertMessage), 'show', [...])
+ 3 SYSTEMPATH\Common.php(1194): CodeIgniter\View\Cell->render('AlertMessage::show', [...], 0, 'AppCellsAlertMessageshow80e668e7d8a87ce7107766256911740f')
+ 4 APPPATH\Views\news\view.php(5): view_cell('AlertMessage::show', [...])
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\projects\\CodeIgnter-First-Use\\codeigniter4\\app\\Views\\news\\view.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('news/view', [], true)
+ 8 APPPATH\Controllers\News.php(54): view('news/view')
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->show('elvis-sighted')
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projects\\CodeIgnter-First-Use\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-01-31 15:54:57 --> ArgumentCountError: Too few arguments to function App\Cells\AlertMessage::show(), 0 passed in C:\projects\CodeIgnter-First-Use\codeigniter4\system\View\Cell.php on line 231 and exactly 1 expected
+in APPPATH\Cells\AlertMessage.php on line 8.
+ 1 SYSTEMPATH\View\Cell.php(231): App\Cells\AlertMessage->show()
+ 2 SYSTEMPATH\View\Cell.php(102): CodeIgniter\View\Cell->renderCell(Object(App\Cells\AlertMessage), 'show', [...])
+ 3 SYSTEMPATH\Common.php(1194): CodeIgniter\View\Cell->render('AlertMessage::show', [...], 0, 'AppCellsAlertMessageshow80e668e7d8a87ce7107766256911740f')
+ 4 APPPATH\Views\news\view.php(5): view_cell('AlertMessage::show', [...])
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\projects\\CodeIgnter-First-Use\\codeigniter4\\app\\Views\\news\\view.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('news/view', [], true)
+ 8 APPPATH\Controllers\News.php(54): view('news/view')
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->show('elvis-sighted')
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projects\\CodeIgnter-First-Use\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-01-31 15:55:34 --> ArgumentCountError: Too few arguments to function App\Cells\AlertMessage::show(), 0 passed in C:\projects\CodeIgnter-First-Use\codeigniter4\system\View\Cell.php on line 231 and exactly 1 expected
+in APPPATH\Cells\AlertMessage.php on line 8.
+ 1 SYSTEMPATH\View\Cell.php(231): App\Cells\AlertMessage->show()
+ 2 SYSTEMPATH\View\Cell.php(102): CodeIgniter\View\Cell->renderCell(Object(App\Cells\AlertMessage), 'show', [...])
+ 3 SYSTEMPATH\Common.php(1194): CodeIgniter\View\Cell->render('AlertMessage::show', [...], 0, 'AppCellsAlertMessageshow80e668e7d8a87ce7107766256911740f')
+ 4 APPPATH\Views\news\view.php(5): view_cell('AlertMessage::show', [...])
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\projects\\CodeIgnter-First-Use\\codeigniter4\\app\\Views\\news\\view.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('news/view', [], true)
+ 8 APPPATH\Controllers\News.php(54): view('news/view')
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->show('elvis-sighted')
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projects\\CodeIgnter-First-Use\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-01-31 15:56:11 --> ArgumentCountError: Too few arguments to function App\Cells\AlertMessage::show(), 0 passed in C:\projects\CodeIgnter-First-Use\codeigniter4\system\View\Cell.php on line 231 and exactly 1 expected
+in APPPATH\Cells\AlertMessage.php on line 8.
+ 1 SYSTEMPATH\View\Cell.php(231): App\Cells\AlertMessage->show()
+ 2 SYSTEMPATH\View\Cell.php(102): CodeIgniter\View\Cell->renderCell(Object(App\Cells\AlertMessage), 'show', [...])
+ 3 SYSTEMPATH\Common.php(1194): CodeIgniter\View\Cell->render('AlertMessage::show', [...], 0, 'AppCellsAlertMessageshow80e668e7d8a87ce7107766256911740f')
+ 4 APPPATH\Views\news\view.php(5): view_cell('AlertMessage::show', [...])
+ 5 SYSTEMPATH\View\View.php(228): include('C:\\projects\\CodeIgnter-First-Use\\codeigniter4\\app\\Views\\news\\view.php')
+ 6 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('news/view', [], true)
+ 8 APPPATH\Controllers\News.php(54): view('news/view')
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\News->show('elvis-sighted')
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projects\\CodeIgnter-First-Use\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-01-31 16:33:16 --> BadMethodCallException: Call to undefined method App\Models\NewsModel::initController
+in SYSTEMPATH\Model.php on line 874.
+ 1 SYSTEMPATH\CodeIgniter.php(914): CodeIgniter\Model->__call('initController', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projects\\CodeIgnter-First-Use\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-01-31 16:34:18 --> BadMethodCallException: Call to undefined method App\Models\NewsModel::initController
+in SYSTEMPATH\Model.php on line 874.
+ 1 SYSTEMPATH\CodeIgniter.php(914): CodeIgniter\Model->__call('initController', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projects\\CodeIgnter-First-Use\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-01-31 16:34:49 --> BadMethodCallException: Call to undefined method App\Models\NewsModel::initController
+in SYSTEMPATH\Model.php on line 874.
+ 1 SYSTEMPATH\CodeIgniter.php(914): CodeIgniter\Model->__call('initController', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\projects\\CodeIgnter-First-Use\\codeigniter4\\public\\index.php')

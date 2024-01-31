@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\NewsModel;
 use CodeIgniter\Router\RouteCollection;
 use App\Controllers\News;
 
@@ -14,3 +15,7 @@ $routes->get('news/(:num)', [News::class, 'showById']);
 
 $routes->get('news', [News::class, 'index']);
 $routes->get('news/(:segment)', [News::class, 'show']);
+
+$routes->view('about', 'pages/about');
+
+$routes->get('nova', [NewsModel::class, 'testRender']);
