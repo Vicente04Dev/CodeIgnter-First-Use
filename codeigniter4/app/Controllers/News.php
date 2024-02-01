@@ -95,6 +95,11 @@ class News extends BaseController{
     }
 
     public function nova(){
-        
+        $db = db_connect();
+        $dbutil = \Config\Database::utils();
+
+        $query = $db->table('news')->get();
+
+        echo $dbutil->getCSVFromResult($query);
     }
 }

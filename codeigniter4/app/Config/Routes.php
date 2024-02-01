@@ -18,4 +18,4 @@ $routes->get('news/(:segment)', [News::class, 'show']);
 
 $routes->view('about', 'pages/about');
 
-$routes->get('nova', [NewsModel::class, 'testRender']);
+$routes->get('nova', [NewsModel::class, 'nova']);
